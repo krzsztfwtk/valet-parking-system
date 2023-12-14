@@ -1,7 +1,5 @@
 from PyQt5.QtWidgets import QMessageBox, QApplication
 from PyQt5.QtCore import QTimer
-
-from loading_message import AutoCloseMessageBox
 import time
 import parking_space
 

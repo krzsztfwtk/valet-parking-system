@@ -10,8 +10,8 @@ class Parser:
     def setup_ui(self):
         layout = QVBoxLayout()
         
-        self.parking_spots_rows_input = QLineEdit("4")
-        self.parking_spots_cols_input = QLineEdit("3")
+        self.parking_spots_rows_input = QLineEdit("3")
+        self.parking_spots_cols_input = QLineEdit("4")
         self.agv_shuttles_input = QLineEdit("auto")
         self.agv_shuttles_input.setEnabled(False)
         self.depots_input = QLineEdit("1")
